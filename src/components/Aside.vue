@@ -10,7 +10,7 @@
             @close="handleClose"
             background-color="#343334"
             text-color="#fff"
-            active-text-color="#FD38D5">
+            active-text-color="#67C23A">
     
             <!-- <el-menu-item index="/index">
                 <i class="el-icon-menu"></i>
@@ -58,7 +58,9 @@
                         <i :class="item.meta.icon"></i>
                         <span slot="title">{{item.label}}</span>
                     </el-menu-item>
+                    
             </div>
+            
         </el-menu>
         
     </div>

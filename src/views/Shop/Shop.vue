@@ -1,6 +1,6 @@
 <template>
     <div class="box">
-            这是商品类表
+            定时任务发布
     </div>
 </template>
 

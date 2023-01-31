@@ -90,10 +90,10 @@ let routerLists=[
     id: 3,
     path: '/shop',
     name: 'shop',
-    label: '商品列表',
+    label: '定时任务',
     component: _import('Shop/Shop'),
     meta:{
-      title: '商品列表',
+      title: '定时任务',
       table: true,
       display:true,
       icon: 'el-icon-s-operation'
@@ -102,10 +102,10 @@ let routerLists=[
   {
     id:20,
     path: '/admin',
-    label: '管理员列表',
+    label: '农作物列表',
     component: _import('Layout/Layout'),  //  Layout/Layout  如果包含子菜单 必须配置这个
     meta:{
-        title: '管理员列表',
+        title: '农作物列表',
         table: true,
         display:true,
         icon: 'el-icon-s-custom'
@@ -114,10 +114,10 @@ let routerLists=[
       {
         id:21,
         path: '/admin/index',
-        label: '管理员列表',
+        label: '农作物列表',
         component: _import('admin/admin'),
         meta:{
-          title: '管理员列表',
+          title: '农作物列表',
           table: true,
           display:true,
           icon:'el-icon-tickets'
@@ -126,10 +126,10 @@ let routerLists=[
       {
         id:22,
         path: '/admin/adminlist',
-        label: '添加管理员',
+        label: '添加农作物',
         component: _import('admin/adminlist'),
         meta:{
-          title: '添加管理员',
+          title: '添加农作物',
           table: true,
           display:true,
           icon:'el-icon-document-remove'
@@ -141,10 +141,10 @@ let routerLists=[
     id: 4,
     path: '/about',
     name: 'about',
-    label: '关于',
+    label: '用户列表',
     component: _import('About/About'),
     meta:{
-      title: '关于',
+      title: '权限',
       table: true,
       display:true,
       icon: 'el-icon-s-operation'
